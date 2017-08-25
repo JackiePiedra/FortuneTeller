@@ -15,9 +15,8 @@ namespace FortuneTeller
             //Set variables for each input from user
             //ROYGBIV - ask them to enter HELP if they need the colors listed, CW the list of colors and repeat question
 
-            Console.WriteLine("Welcome to Fortune Teller! Let's start by asking you some questions..");
-            Console.WriteLine("\n\n**IMPORTANT**");
-            Console.WriteLine("If you don't want to hear your fortune, answer any of the questions with QUIT");
+            Console.WriteLine("Welcome to Fortune Teller! \n\nLet's start by asking you some questions..");
+            Console.WriteLine("\nIf you don't want to read your fortune, you can exit Fortune Teller at any time by answering any of the questions with QUIT");
             Console.WriteLine("\n\nWhat is your first name?");
 
             string firstName = Console.ReadLine();
